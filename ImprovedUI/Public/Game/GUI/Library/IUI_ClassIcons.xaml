@@ -663,7 +663,9 @@
 			<DataTrigger Binding="{Binding SubclassIDString}" Value="ThunderPortaler">
                 <Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/ClassIcons/ThunderPortaler.png"/>
             </DataTrigger>
-			<!--EDIT HERE-->
+	     <DataTrigger Binding="{Binding SubclassIDString}" Value="CircleOfTheElements">
+                <Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/BG3Mods/ClassIcons/Sub_Circle_Elements.png"/>
+            </DataTrigger>
         </Style.Triggers>
 	</Style>
 	
@@ -808,7 +810,9 @@
 			<DataTrigger Binding="{Binding SubclassIDString}" Value="ThunderPortaler">
                 <Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/ClassIcons/hotbar/ThunderPortaler.png"/>
             </DataTrigger>
-			<!--EDIT HERE-->
+		<DataTrigger Binding="{Binding SubclassIDString}" Value="CircleOfTheElements">
+                <Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/BG3Mods/ClassIcons/hotbar/Sub_Circle_Elements.png"/>
+            </DataTrigger>
         </Style.Triggers>
     </Style>
 </ResourceDictionary>
